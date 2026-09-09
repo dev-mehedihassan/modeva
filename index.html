@@ -13,7 +13,7 @@
     />
     <!-- Google Fonts Link End -->
     <!-- Font Awesome Link Start -->
-    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Font Awesome Link End -->
     <!-- Bootstrap CSS Link Start -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -24,25 +24,75 @@
   </head>
   <body>
     <!-- ====== Header Section Start ====== -->
-     <section id="header">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="header_content">
-                        <h5>Discount 20% For New Member, <span>ONLY FOR TODAY!!</span></h5>
-                    </div>
-                </div>
-                <div class="col-lg-1">
-                    <div class="cancel">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>
-                </div>
+    <section id="header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="header_content">
+              <h5>
+                Discount 20% For New Member, <span>ONLY FOR TODAY!!</span>
+              </h5>
             </div>
+          </div>
+          <div class="col-lg-1">
+            <div class="cancel">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
     <!-- ====== Header Section End ====== -->
 
     <!-- ====== Navbar Section Start ====== -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Catalog <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New Arrival</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="nav_actions">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- ====== Navbar Section End ====== -->
 
     <!-- ====== Banner Section Start ====== -->
@@ -65,7 +115,6 @@
 
     <!-- ====== Footer Section Start ====== -->
     <!-- ====== Footer Section End ====== -->
-
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>

@@ -38,6 +38,55 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Header Section Style End ====== */
 
 /* ====== Navbar Section Style Start ====== */
+.navbar{
+    padding: 21px 0;
+    background: #8B4513;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-nav .nav-item .nav-link i{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.nav_actions{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav_actions .form-control{
+    width: 214px;
+    background: #FAFAFA;
+    padding: 8px;
+    border-radius: 0;
+    outline: none;
+}
+
+.form-control::placeholder{
+    color: #B6B6B6;
+}
+
+.nav_actions form i{
+    color: #B6B6B6;
+    font-size: 14px;
+}
+
+.nav_actions i{
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 /* ====== Navbar Section Style End ====== */
 
 /* ====== Banner Section Style Start ====== */
