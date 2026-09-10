@@ -266,6 +266,55 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Banner Section Style End ====== */
 
 /* ====== Gallery Section Style Start ====== */
+#gallery {
+    padding: 64px 0;
+}
+
+.gallery_item {
+    position: relative;
+    cursor: pointer;
+}
+
+.gallery_item .gallery_img {
+    object-fit: cover;
+    transition: all linear 0.3s;
+}
+
+.gallery_item:hover .gallery_img {
+    transform: scale(1.05);
+}
+
+.gallery_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.gallery_item:hover .gallery_overlay {
+    opacity: 1;
+}
+
+.gallery_title {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.gallery_item:not(.gallery_item_tall) .gallery_img {
+    height: 374px;
+}
+
+.gallery_item_tall .gallery_img {
+    min-height: 780px;
+}
 /* ====== Gallery Section Style End ====== */
 
 /* ====== Dress Section Style Start ====== */
