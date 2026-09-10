@@ -591,7 +591,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Feedback Section Style Start ====== */
 #feedback {
-    padding: 64px 0;
+    padding-top: 64px;
+    padding-bottom: 298px;
 }
 
 .feedback_wrapper {
@@ -627,7 +628,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .feedback_cards_area {
     position: absolute;
-    bottom: -50%;
+    bottom: -298px;
     left: 0;
     width: 100%;
     background: #F2F2F2;
@@ -680,7 +681,72 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Footer Section Style Start ====== */
 #footer {
+    padding-top: 232px;
+    padding-bottom: 48px;
     background: #8B4513;
+}
+
+.contact_info {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.35;
+    color: #FFFFFF;
+}
+
+.contact_info .info_label {
+    min-width: 75px;
+}
+
+.contact_info .info_separator {
+    margin-right: 8px;
+}
+
+.contact_info .info_value {
+    max-width: 223px;
+}
+
+.contact_info .link_item {
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+
+.contact_info .link_item:hover {
+    text-decoration: underline;
+}
+
+.footer_title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer_links ul {
+    gap: 8px;
+}
+
+.footer_links ul li a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.35;
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+
+.footer_links ul li a:hover {
+    padding-left: 4px;
+}
+
+.copyright_text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.35;
+    color: #FFFFFF;
 }
 /* ====== Footer Section Style End ====== */
 
