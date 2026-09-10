@@ -58,11 +58,11 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== Navbar Section Style Start ====== */
 .navbar{
-    padding: 21px 0;
+    padding: 14.5px 0;
     background: transparent;
     width: 100%;
     position: absolute;
-    top: 48px;
+    top: 64px;
     left: 0;
     z-index: 999;
 }
@@ -80,44 +80,65 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: all linear 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link i{
     font-size: 12px;
     color: #FFFFFF;
+    transition: all linear 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link i:hover{
     color: #8B4513;
 }
 
-.nav_actions{
+.nav_actions {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.nav_actions .form-control{
+.search_box {
+    position: relative;
     width: 214px;
+}
+
+.search_box .search_icon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #B6B6B6;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.search_box .form-control {
+    width: 100%;
+    padding: 8px 8px 8px 32px;
     background: #FAFAFA;
-    padding: 8px;
-    border-radius: 0;
+    border: none;
     outline: none;
-}
-
-.form-control::placeholder{
-    color: #B6B6B6;
-}
-
-.nav_actions form i{
-    color: #B6B6B6;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 17px;
+    color: #000000;
 }
 
-.nav_actions i{
+.search_box .form-control::placeholder {
+    color: #B6B6B6;
+}
+
+.nav_actions .nav_icon {
     font-size: 18px;
     color: #FFFFFF;
-    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.nav_actions .nav_icon:hover {
+    color: #8B4513;
 }
 /* ====== Navbar Section Style End ====== */
 
