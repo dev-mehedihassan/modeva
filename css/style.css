@@ -3,13 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 ul,ol,dl{
     list-style-type: none
 }
+
 a, a:hover{
     display: inline-block;
     text-decoration: none;
 }
+
 h1,h2,h3,h4,h5,h6,p{
     line-height: 1.4;
 }
@@ -23,6 +26,7 @@ h1,h2,h3,h4,h5,h6,p{
     left: 0;
     z-index: 999;
 }
+
 .header_content h5{
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -32,13 +36,23 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: capitalize;
     color: #FFFFFF;
 }
+
 .header_content h5 span{
     font-weight: 800;
     text-transform: uppercase;
 }
-.cancel i{
-    font-size: 16px;
+
+.cancel {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cancel i {
+    font-size: 18px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 /* ====== Header Section Style End ====== */
 
