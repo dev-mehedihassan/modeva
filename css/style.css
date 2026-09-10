@@ -545,6 +545,48 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Outfit Section Style End ====== */
 
 /* ====== Service Section Style Start ====== */
+#service {
+    padding-top: 64px;
+}
+
+.service_card {
+    background: #FFFFFF;
+    border: 24px solid #F2F2F2;
+    padding: 24px;
+    transition: all linear 0.3s;
+}
+
+.service_icon_wrapper {
+    width: 64px;
+    height: 64px;
+    background: #8B4513;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_icon_wrapper i {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.service_title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3E3E3E;
+    margin-bottom: 8px;
+}
+
+.service_text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.35;
+    color: #757575;
+}
 /* ====== Service Section Style End ====== */
 
 /* ====== Feedback Section Style Start ====== */
