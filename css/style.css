@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .navbar-nav .nav-item .nav-link i{
-    font-size: 12px;
+    font-size: 14px;
     color: #FFFFFF;
     transition: all linear 0.3s;
 }
@@ -143,85 +143,126 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Navbar Section Style End ====== */
 
 /* ====== Banner Section Style Start ====== */
-#banner{
-    padding-top: 85px;
-    background: url(../images/banner.png);
-    background-position: center;
+#banner {
+    width: 100%;
+    min-height: 100vh;
+    padding: 85px 0;
+    background-image: url("../images/banner.png");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-}
-.banner_Content{
-    padding-top: 90px;
-}
-.banner_Content h1{
-    width: 526px;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 71.5px;
-    color: #1B1B1B;
-}
-.banner_Content span{
-    font-weight: 300;
-}
-.banner_Content p{
-    width: 511px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #717171;
-    margin-top: 37px;
-    margin-bottom: 51px;
-}
-.banner_actions{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.banner_actions .banner_btn{
-    display: inline-flex !important;
-    align-items: center;
-    gap: 12px;
-}
-.banner_btn{
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14.5px 25px;
-    background: transparent;
-    border: 2px solid #06C279;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    color: #1B1B1B;
-    transition: all linear 0.3s;
-}
-.banner_btn:hover{
-    background: #06C279;
-    color: #FFFFFF;
-    border: 2px solid transparent;
-}
-.banner_btn i{
-    font-size: 10px;
-    color: #06C279;
-    background: #DAF6EB;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all linear 0.3s;   
-}
-.banner_btn:hover {
-    background: #06C279;
-    color: #FFFFFF;
 }
 
-.banner_btn:hover i {
-    color: #FFFFFF;
+.banner_content {
+    position: relative;
+    z-index: 5;
+    margin-top: 284px;
 }
+
+.banner_content .sub_title {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.banner_content .main_title {
+    width: 100%;
+    max-width: 870px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.product_cards_wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 504px;
+}
+
+.banner_product_card {
+    width: 442px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.banner_product_card .card_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_product_card .card_body {
+    padding: 16px;
+}
+
+.banner_product_card .card_body h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3E3E3E;
+    text-transform: capitalize;
+}
+
+.banner_product_card .card_body .price {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.banner_product_card .card_body .shop_link {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 10%;
+    color: #3E3E3E;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+
+.banner_product_card .card_body .shop_link:hover {
+    color: #8B4513;
+}
+
+.scroll_down {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.scroll_down i {
+    font-size: 14px;
+}
+
 /* ====== Banner Section Style End ====== */
 
 /* ====== Gallery Section Style Start ====== */
