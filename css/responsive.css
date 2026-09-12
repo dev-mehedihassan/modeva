@@ -1,0 +1,829 @@
+@media (max-width: 575.98px) {
+
+    /* ---------- Header ---------- */
+
+    #header {
+        padding: 10px 0;
+    }
+
+    .header_content {
+        padding: 0 35px 0 10px;
+        text-align: center;
+    }
+
+    .header_content h5 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+
+    .cancel {
+        right: 10px;
+    }
+
+    .cancel i {
+        font-size: 14px;
+    }
+
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        top: 55px;
+        padding: 10px 0;
+    }
+
+    .navbar-brand img {
+        max-width: 110px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px;
+        border: 1px solid #ffffff;
+    }
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 0;
+    }
+
+    .nav_actions {
+        width: 100%;
+        margin-top: 10px;
+        gap: 12px;
+    }
+
+    .search_box {
+        width: 100%;
+        max-width: 220px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        min-height: 850px;
+        padding: 80px 0 50px;
+        background-position: center;
+    }
+
+    .banner_content {
+        margin-top: 180px;
+        text-align: center;
+    }
+
+    .banner_content .sub_title {
+        font-size: 10px;
+        line-height: 140%;
+        letter-spacing: 2px;
+    }
+
+    .banner_content .main_title {
+        max-width: 100%;
+        font-size: 38px;
+        line-height: 1.15;
+        margin-top: 12px;
+    }
+
+    .product_cards_wrapper {
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .banner_product_card {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .banner_product_card .card_body {
+        padding: 12px;
+    }
+
+    .banner_product_card .card_body h6 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .banner_product_card .card_body .price {
+        font-size: 13px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .banner_product_card .card_body .shop_link {
+        font-size: 11px;
+    }
+
+    .scroll_down {
+        bottom: 20px;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+
+    /* ---------- Gallery ---------- */
+
+    #gallery {
+        padding: 40px 0;
+    }
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 280px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 400px;
+    }
+
+    .gallery_title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .gallery_overlay {
+        padding: 0 15px;
+    }
+
+
+    /* ---------- Dress ---------- */
+
+    #dress {
+        padding-top: 20px;
+    }
+
+    .dress_section_title {
+        font-size: 38px;
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .dress_img_wrapper {
+        height: 380px;
+    }
+
+    .dress_card_body .product_title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .dress_card_body .price {
+        margin-bottom: 20px;
+    }
+
+    .see_more_btn {
+        font-size: 13px;
+        padding: 12px 14px;
+    }
+
+
+    /* ---------- Outfit ---------- */
+
+    #outfit {
+        padding-top: 45px;
+    }
+
+    .outfit_section_title {
+        font-size: 38px;
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .outfit_img_wrapper {
+        height: 380px;
+    }
+
+    .outfit_card_body .product_title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .outfit_card_body .price {
+        margin-bottom: 20px;
+    }
+
+
+    /* ---------- Service ---------- */
+
+    #service {
+        padding-top: 45px;
+    }
+
+    .service_card {
+        border-width: 12px;
+        padding: 20px;
+    }
+
+    .service_icon_wrapper {
+        width: 55px;
+        height: 55px;
+    }
+
+    .service_icon_wrapper i {
+        font-size: 20px;
+    }
+
+    .service_title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .service_text {
+        font-size: 12px;
+    }
+
+    .service_card_horizontal .d-flex {
+        gap: 15px !important;
+    }
+
+
+    /* ---------- Feedback ---------- */
+
+    #feedback {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    .feedback_video_wrapper {
+        max-height: 400px;
+    }
+
+    .feedback_video_img {
+        min-height: 300px;
+        object-fit: cover;
+    }
+
+    .play_btn {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .feedback_cards_area {
+        position: static;
+        transform: none;
+        margin-top: 20px;
+        padding: 30px 15px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .footer_brand {
+        text-align: center;
+    }
+
+    .footer_logo {
+        max-width: 130px;
+    }
+
+    .contact_info {
+        text-align: left;
+    }
+
+    .footer_links {
+        margin-top: 20px;
+    }
+
+    .footer_title {
+        font-size: 14px;
+    }
+
+    .copyright_text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ---------- Header ---------- */
+
+    .header_content h5 {
+        font-size: 14px;
+    }
+
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        top: 58px;
+    }
+
+    .navbar-brand img {
+        max-width: 125px;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+
+    .nav_actions {
+        margin-top: 10px;
+    }
+
+    .search_box {
+        width: 240px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        min-height: 900px;
+    }
+
+    .banner_content {
+        margin-top: 220px;
+        text-align: center;
+    }
+
+    .banner_content .sub_title {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+    .banner_content .main_title {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .product_cards_wrapper {
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .banner_product_card {
+        width: 480px;
+        max-width: 100%;
+    }
+
+    .banner_product_card .card_body h6 {
+        font-size: 22px;
+    }
+
+
+    /* ---------- Gallery ---------- */
+
+    #gallery {
+        padding: 50px 0;
+    }
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 320px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 500px;
+    }
+
+    .gallery_title {
+        font-size: 36px;
+    }
+
+
+    /* ---------- Dress ---------- */
+
+    .dress_section_title {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .dress_img_wrapper {
+        height: 400px;
+    }
+
+
+    /* ---------- Outfit ---------- */
+
+    .outfit_section_title {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .outfit_img_wrapper {
+        height: 400px;
+    }
+
+
+    /* ---------- Service ---------- */
+
+    #service {
+        padding-top: 55px;
+    }
+
+    .service_card {
+        border-width: 16px;
+        padding: 22px;
+    }
+
+    .service_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Feedback ---------- */
+
+    #feedback {
+        padding-bottom: 60px;
+    }
+
+    .feedback_cards_area {
+        position: static;
+        transform: none;
+        margin-top: 25px;
+        padding: 40px 20px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer {
+        padding-top: 70px;
+    }
+
+    .footer_brand {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ---------- Header ---------- */
+
+    .header_content h5 {
+        font-size: 15px;
+    }
+
+
+    /* ---------- Navbar ---------- */
+
+    .navbar {
+        top: 60px;
+    }
+
+    .navbar-brand img {
+        max-width: 135px;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar-nav {
+        gap: 8px;
+    }
+
+    .nav_actions {
+        margin-top: 10px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    #banner {
+        min-height: 900px;
+    }
+
+    .banner_content {
+        margin-top: 220px;
+    }
+
+    .banner_content .sub_title {
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+
+    .banner_content .main_title {
+        font-size: 58px;
+        line-height: 1.2;
+    }
+
+    .product_cards_wrapper {
+        margin-top: 100px;
+    }
+
+    .banner_product_card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .banner_product_card .card_body h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    /* ---------- Gallery ---------- */
+
+    #gallery {
+        padding: 55px 0;
+    }
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 300px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 620px;
+    }
+
+    .gallery_title {
+        font-size: 38px;
+    }
+
+
+    /* ---------- Dress ---------- */
+
+    .dress_section_title {
+        font-size: 58px;
+        line-height: 1.2;
+    }
+
+    .dress_img_wrapper {
+        height: 350px;
+    }
+
+    .dress_card_body .product_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Outfit ---------- */
+
+    .outfit_section_title {
+        font-size: 58px;
+        line-height: 1.2;
+    }
+
+    .outfit_img_wrapper {
+        height: 350px;
+    }
+
+    .outfit_card_body .product_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Service ---------- */
+
+    #service {
+        padding-top: 55px;
+    }
+
+    .service_card {
+        border-width: 18px;
+        padding: 20px;
+    }
+
+    .service_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Feedback ---------- */
+
+    #feedback {
+        padding-bottom: 80px;
+    }
+
+    .feedback_cards_area {
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 50px 20px;
+    }
+
+
+    /* ---------- Footer ---------- */
+
+    #footer {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ---------- Navbar ---------- */
+
+    .navbar-nav {
+        gap: 18px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    .search_box {
+        width: 170px;
+    }
+
+
+    /* ---------- Banner ---------- */
+
+    .banner_content {
+        margin-top: 240px;
+    }
+
+    .banner_content .main_title {
+        font-size: 62px;
+    }
+
+    .product_cards_wrapper {
+        margin-top: 400px;
+    }
+
+    .banner_product_card {
+        width: 380px;
+    }
+
+    .banner_product_card .card_body h6 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Gallery ---------- */
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 320px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 680px;
+    }
+
+    .gallery_title {
+        font-size: 42px;
+    }
+
+
+    /* ---------- Dress ---------- */
+
+    .dress_section_title {
+        font-size: 64px;
+    }
+
+    .dress_img_wrapper {
+        height: 360px;
+    }
+
+    .dress_card_body .product_title {
+        font-size: 24px;
+    }
+
+
+    /* ---------- Outfit ---------- */
+
+    .outfit_section_title {
+        font-size: 64px;
+    }
+
+    .outfit_img_wrapper {
+        height: 360px;
+    }
+
+    .outfit_card_body .product_title {
+        font-size: 24px;
+    }
+
+
+    /* ---------- Service ---------- */
+
+    .service_card {
+        border-width: 18px;
+        padding: 20px;
+    }
+
+    .service_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* ---------- Feedback ---------- */
+
+    .feedback_cards_area {
+        padding: 70px 20px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* ---------- Banner ---------- */
+
+    .banner_content {
+        margin-top: 260px;
+    }
+
+    .banner_content .main_title {
+        font-size: 70px;
+    }
+
+    .product_cards_wrapper {
+        margin-top: 460px;
+    }
+
+    .banner_product_card {
+        width: 410px;
+    }
+
+
+    /* ---------- Gallery ---------- */
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 350px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 740px;
+    }
+
+
+    /* ---------- Dress ---------- */
+
+    .dress_section_title {
+        font-size: 70px;
+    }
+
+    .dress_img_wrapper {
+        height: 400px;
+    }
+
+
+    /* ---------- Outfit ---------- */
+
+    .outfit_section_title {
+        font-size: 70px;
+    }
+
+    .outfit_img_wrapper {
+        height: 400px;
+    }
+
+
+    /* ---------- Service ---------- */
+
+    .service_card {
+        border-width: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .banner_content .main_title {
+        font-size: 76px;
+    }
+
+    .banner_product_card {
+        width: 442px;
+    }
+
+    .gallery_item:not(.gallery_item_tall) .gallery_img {
+        height: 374px;
+    }
+
+    .gallery_item_tall .gallery_img {
+        min-height: 780px;
+    }
+
+    .dress_section_title,
+    .outfit_section_title {
+        font-size: 76px;
+    }
+
+    .dress_img_wrapper,
+    .outfit_img_wrapper {
+        height: 420px;
+    }
+}
